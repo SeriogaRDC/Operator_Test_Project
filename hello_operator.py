@@ -1,1 +1,0 @@
-print("Hello, Operator is running smoothly!")

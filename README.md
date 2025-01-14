@@ -1,26 +1,33 @@
 # Operator_Test_Project
 
-This repository is a test project to demonstrate GitHub operations and Python script execution.
+## Tetris Game
 
-## Contents
+A simple Tetris game implementation using Python and Pygame.
 
-- `hello_operator.py`: A simple Python script that prints a confirmation message
-- `.gitignore`: Standard Python gitignore file for managing version control
-- `README.md`: This file, containing project documentation
+### Requirements
+- Python 3.x
+- Pygame library
 
-## Setup and Testing
-
-1. The repository was created with a Python `.gitignore` template
-2. A simple Python script was added to test the environment
-3. The script was tested locally and executes successfully
-
-## Test Results
-
-The `hello_operator.py` script was executed and produced the expected output:
-```
-Hello, Operator is running smoothly!
+### Installation
+```bash
+pip install pygame
 ```
 
-## Note
+### How to Run
+```bash
+python3 tetris_game.py
+```
 
-This is a test project for demonstration purposes.
+### Controls
+- Left Arrow: Move piece left
+- Right Arrow: Move piece right
+- Down Arrow: Move piece down
+- Up Arrow: Rotate piece
+- Space: Drop piece instantly
+
+### Features
+- Classic Tetris gameplay
+- Score tracking
+- Game over detection
+- Piece rotation
+- Line clearing
